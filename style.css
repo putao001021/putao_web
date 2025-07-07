@@ -1,0 +1,56 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #a259ec;
+  color: #222;
+}
+header {
+  background: #6c2eb7;
+  color: #fff;
+  padding: 40px 0 20px 0;
+  text-align: center;
+}
+header .subtitle {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #e0eaff;
+}
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+section {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.08);
+  margin-bottom: 30px;
+  padding: 30px 24px;
+}
+section h2 {
+  color: #4f8cff;
+  margin-top: 0;
+}
+ul {
+  padding-left: 20px;
+}
+footer {
+  text-align: center;
+  color: #888;
+  padding: 20px 0;
+  background: #f0f4f8;
+  font-size: 0.95em;
+  border-top: 1px solid #e0e0e0;
+}
+@media (max-width: 600px) {
+  main {
+    padding: 0 5px;
+  }
+  section {
+    padding: 18px 8px;
+  }
+  header {
+    padding: 28px 0 12px 0;
+  }
+} 
